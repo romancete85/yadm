@@ -106,6 +106,10 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-
+alias ansibledir="/mnt/c/Users/roman/Desktop/DEVOPS/GITHUB/EDUIT/eduit/Ansible"
+alias gitrepo="/mnt/c/Users/roman/Desktop/DEVOPS/GITHUB/EDUIT/eduit"
+alias kubectl="sudo microk8s kubectl"
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+export KUBECONFIG=~/.kube/config
