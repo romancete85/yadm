@@ -109,6 +109,7 @@ source $ZSH/oh-my-zsh.sh
 alias ansibledir="/mnt/c/Users/roman/Desktop/DEVOPS/GITHUB/EDUIT/eduit/Ansible"
 alias gitrepo="/mnt/c/Users/roman/Desktop/DEVOPS/GITHUB/EDUIT/eduit"
 alias kubectl="sudo microk8s kubectl"
+alias helm="sudo microk8s helm"
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
